@@ -14,7 +14,9 @@ from olmo.utils import determine_device
 MODEL_MAP = {
     "pretrained": "allenai/OLMo-7B-hf",
     "sft": "allenai/OLMo-7B-SFT-hf",
-    "instruct": "allenai/OLMo-7B-Instruct-hf"
+    "instruct": "allenai/OLMo-7B-Instruct-hf",
+    "gemma": "google/gemma-2-9b-it",
+    "llama": "meta-llama/Meta-Llama-3.1-8B-Instruct"
 }
 
 
